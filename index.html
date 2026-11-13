@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project: Sign-up Form</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <aside class="hero">
         <img src="./aset/rast-logo.png" alt="Rast Logo"/>
+        <img src="./aset/background.jpg" alt="Background Image"/>
+        <p>
+            Your Styling Partner
+        </p>
         <p class="photo-credit">
             Foto oleh <a href="https://unsplash.com/id/@justinbuisson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">JUSTIN BUISSON</a> di <a href="https://unsplash.com/id/foto/pria-berbaju-hitam-JU5_bUxr5Rg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         </p>
     </aside>
     <main class="content">
-        <section class="intro"></section>
+        <section class="intro">
             <h1>
                 Sign Up
             </h1>
@@ -24,6 +29,21 @@
                 You <em>know</em> you want to.
             </p>
         </section>
+        <form class="sign-form">
+            <label for="firstName">First Name :</label><br>
+            <input type="text" id="firstName" name="firstName" required><br>
+            <label for="lastName">Last Name :</label><br>
+            <input type="text" id="lastName" name="lastName" required><br>
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="phone">Phone Number :</label><br>
+            <input type="tel" id="phone" name="phone" required><br>   
+            <label for="password">Password :</label><br>
+            <input type="password" id="password" name="password" required><br>
+            <label for="confirmPassword">Confirm Password :</label><br>
+            <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+            <input type="submit" value="Sign Up">
+        </form>
     </main>
 </body>
 </html>
