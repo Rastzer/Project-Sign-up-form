@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+}
+
+.hero{
+    width: 37%;
+    background-image: url('./aset/background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    flex: 1;
+}
+
+.logo-band{
+    margin-top: 20vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-band img{
+    width: 50%;
+    filter: invert(1) brightness(0.9);
+}
+
+.logo-band p{
+    margin: 8px 0 0;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.photo-credit{
+    margin-top: auto;
+    margin-bottom: 16px;
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.photo-credit a{
+    color: white;
+}
